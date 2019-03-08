@@ -9,7 +9,8 @@ console.log(API);
   const api = new API({
     key: "1e19898c87464e239192c8bfe422f280"
   });
-
+const maink = document.querySelector("main")
+maink.classList.add('loader');
   const stream = await api.createStream(`search/targetAudience=(ageYouth){25}`);
   // const stream = await api.createStream(`search/kinder&facet=targetAudience=(ageYouth)&facet=type(book){9}`);
   stream.pipe(createElements);
@@ -41,7 +42,7 @@ console.log(API);
       `
       container.insertAdjacentHTML('beforeend', elemet)
     })
-
+maink.classList.remove('loader');
     console.log(saveData);
     document.querySelectorAll('.temp').forEach(function(temp) {
       temp.addEventListener('click', minus)
