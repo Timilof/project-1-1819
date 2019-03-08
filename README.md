@@ -1,5 +1,8 @@
 # Project 1 @cmda-minor-web · 2018-2019
 
+view app at
+https://hopeful-ptolemy-6426e3.netlify.com/
+
 
 # Book reccomending for OBA-junior
 My repository for Project 1 of the minor web-dev
