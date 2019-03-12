@@ -17,7 +17,7 @@ My App displays nine book of different categories and prompts the user to pick t
 
   ![screen cap img](/src/img/screen_1.png)  
 
-
+I use the OBA wrapper created and maintained by [maamlamp](https://github.com/maanlamp/OBA-wrapper)
 
 ## Features
   * Overview page with 9 childrens books each with a different them or belonging to a different genre
