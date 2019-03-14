@@ -35,7 +35,7 @@ maink.classList.add('loader');
       <div class="">
         <h3>${book.titles.title._text}</h3>
         <p>${book.summaries.summary._text}</p>
-        <a target="blank" href="${book["detail-page"]._text}">view book</a>
+        <a target="blank" href="${book["detail-page"]._text}">bekijk boek</a>
       </div>
       <img class="imgo" src="${book.coverimages.coverimage[1]._text}" alt="">
       </article>
